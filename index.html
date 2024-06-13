@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashraf | User Info</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <form id="myForm">
+            <h2 class="title">Ashraf | User Info</h2>
+            <div class="content">
+                <div class="box">
+                    <label for="name">Name:</label>
+                    <input required type="text" id="name" placeholder="your name" /><br>
+                </div>
+                <div class="box">
+                    <label for="surname">Surname:</label>
+                    <input required type="text" placeholder="your surname" id="surname" /><br>
+                </div>
+                <div class="box">
+                    <label for="address">Address:</label>
+                    <input required placeholder="your address" type="text" id="address" /><br>
+                </div>
+                <div class="box">
+                    <label for="age">Age:</label>
+                    <input required placeholder="just number" type="number" id="age" /><br>
+                </div>
+                <div class="box">
+                    <label for="married">Is married:</label>
+                    <input required type="text" placeholder="not married/married" id="married" /><br>
+                </div>
+                <div class="box">
+                    <label for="skill">Skill:</label>
+                <input required placeholder="your skills are" type="text" id="skill" /><br>
+                </div>         
+                <button class="sub-btn" type="submit">Submit</button>
+            </div>
+           
+        </form>
+        <div class="output">
+            <h2 class="title">Information is here:</h2>
+            <p id="outputName"></p>
+            <p id="outputSurname"></p>
+            <p id="outputAddress"></p>
+            <p id="outputAge"></p>
+            <p id="outputMarried"></p>
+            <p id="outputSkill"></p>
+        </div>
+    </div>
+
+    <script src="./public/app.js"></script>
+</body>
+</html>
